@@ -7,7 +7,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sharpapi/laravel-content-detect-emails.svg?style=flat-square)](https://packagist.org/packages/sharpapi/laravel-content-detect-emails)
 [![Total Downloads](https://img.shields.io/packagist/dt/sharpapi/laravel-content-detect-emails.svg?style=flat-square)](https://packagist.org/packages/sharpapi/laravel-content-detect-emails)
 
-Check the details at SharpAPI's [Content API](https://sharpapi.com/en/catalog/ai/content) page.
+Check the details at SharpAPI's [AI Emails Detector API](https://sharpapi.com/en/catalog/ai/content-marketing-automation/emails-detector) page.
 
 ---
 
@@ -141,17 +141,13 @@ SHARP_API_BASE_URL=https://sharpapi.com/api/v1
 {
   "data": {
     "type": "api_job_result",
-    "id": "5a113c4d-38e9-43e5-80f4-ec3fdea3420e",
+    "id": "06f4a1ba-b6b1-48b3-b071-807e3d41db4d",
     "attributes": {
       "status": "success",
       "type": "content_detect_emails",
       "result": [
-        {
-          "email": "support@example.com"
-        },
-        {
-          "email": "sales@example.com"
-        }
+        "example@email.com",
+        "lorem.ipsum@email.com"
       ]
     }
   }
