@@ -14,7 +14,7 @@ Check the details at SharpAPI's [AI Emails Detector API](https://sharpapi.com/en
 ## Requirements
 
 - PHP >= 8.1
-- Laravel >= 9.0
+- Laravel >= 10.48.29
 
 ---
 
