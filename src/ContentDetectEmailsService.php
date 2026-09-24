@@ -37,6 +37,11 @@ class ContentDetectEmailsService extends SharpApiClient
                 'sharpapi-content-detect-emails.api_job_status_polling_wait',
                 180)
         );
+        $this->setUseCustomInterval(
+            (bool) config(
+                'sharpapi-content-detect-emails.api_job_status_use_polling_interval',
+                false)
+        );
         $this->setUserAgent('SharpAPILaravelContentDetectEmails/1.0.0');
     }
 
